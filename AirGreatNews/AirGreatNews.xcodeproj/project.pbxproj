@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99B519182109B2D2001C88AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B519172109B2D2001C88AC /* AppDelegate.m */; };
+		99B5191B2109B2D2001C88AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B5191A2109B2D2001C88AC /* ViewController.m */; };
+		99B5191E2109B2D2001C88AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B5191C2109B2D2001C88AC /* Main.storyboard */; };
+		99B519202109B2D2001C88AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B5191F2109B2D2001C88AC /* Assets.xcassets */; };
+		99B519232109B2D2001C88AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B519212109B2D2001C88AC /* LaunchScreen.storyboard */; };
+		99B519262109B2D3001C88AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B519252109B2D3001C88AC /* main.m */; };
+		99B519302109B2D3001C88AC /* AirGreatNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B5192F2109B2D3001C88AC /* AirGreatNewsTests.m */; };
+		99B5193B2109B2D3001C88AC /* AirGreatNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B5193A2109B2D3001C88AC /* AirGreatNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99B5192C2109B2D3001C88AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B5190B2109B2D2001C88AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B519122109B2D2001C88AC;
+			remoteInfo = AirGreatNews;
+		};
+		99B519372109B2D3001C88AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B5190B2109B2D2001C88AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B519122109B2D2001C88AC;
+			remoteInfo = AirGreatNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99B519132109B2D2001C88AC /* AirGreatNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirGreatNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B519162109B2D2001C88AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99B519172109B2D2001C88AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99B519192109B2D2001C88AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99B5191A2109B2D2001C88AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99B5191D2109B2D2001C88AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B5191F2109B2D2001C88AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99B519222109B2D2001C88AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B519242109B2D2001C88AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B519252109B2D3001C88AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99B5192B2109B2D3001C88AC /* AirGreatNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirGreatNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B5192F2109B2D3001C88AC /* AirGreatNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirGreatNewsTests.m; sourceTree = "<group>"; };
+		99B519312109B2D3001C88AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B519362109B2D3001C88AC /* AirGreatNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirGreatNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B5193A2109B2D3001C88AC /* AirGreatNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirGreatNewsUITests.m; sourceTree = "<group>"; };
+		99B5193C2109B2D3001C88AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B519102109B2D2001C88AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B519282109B2D3001C88AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B519332109B2D3001C88AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99B5190A2109B2D2001C88AC = {
+			isa = PBXGroup;
+			children = (
+				99B519152109B2D2001C88AC /* AirGreatNews */,
+				99B5192E2109B2D3001C88AC /* AirGreatNewsTests */,
+				99B519392109B2D3001C88AC /* AirGreatNewsUITests */,
+				99B519142109B2D2001C88AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99B519142109B2D2001C88AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B519132109B2D2001C88AC /* AirGreatNews.app */,
+				99B5192B2109B2D3001C88AC /* AirGreatNewsTests.xctest */,
+				99B519362109B2D3001C88AC /* AirGreatNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B519152109B2D2001C88AC /* AirGreatNews */ = {
+			isa = PBXGroup;
+			children = (
+				99B519162109B2D2001C88AC /* AppDelegate.h */,
+				99B519172109B2D2001C88AC /* AppDelegate.m */,
+				99B519192109B2D2001C88AC /* ViewController.h */,
+				99B5191A2109B2D2001C88AC /* ViewController.m */,
+				99B5191C2109B2D2001C88AC /* Main.storyboard */,
+				99B5191F2109B2D2001C88AC /* Assets.xcassets */,
+				99B519212109B2D2001C88AC /* LaunchScreen.storyboard */,
+				99B519242109B2D2001C88AC /* Info.plist */,
+				99B519252109B2D3001C88AC /* main.m */,
+			);
+			path = AirGreatNews;
+			sourceTree = "<group>";
+		};
+		99B5192E2109B2D3001C88AC /* AirGreatNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				99B5192F2109B2D3001C88AC /* AirGreatNewsTests.m */,
+				99B519312109B2D3001C88AC /* Info.plist */,
+			);
+			path = AirGreatNewsTests;
+			sourceTree = "<group>";
+		};
+		99B519392109B2D3001C88AC /* AirGreatNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99B5193A2109B2D3001C88AC /* AirGreatNewsUITests.m */,
+				99B5193C2109B2D3001C88AC /* Info.plist */,
+			);
+			path = AirGreatNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B519122109B2D2001C88AC /* AirGreatNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B5193F2109B2D3001C88AC /* Build configuration list for PBXNativeTarget "AirGreatNews" */;
+			buildPhases = (
+				99B5190F2109B2D2001C88AC /* Sources */,
+				99B519102109B2D2001C88AC /* Frameworks */,
+				99B519112109B2D2001C88AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirGreatNews;
+			productName = AirGreatNews;
+			productReference = 99B519132109B2D2001C88AC /* AirGreatNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99B5192A2109B2D3001C88AC /* AirGreatNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B519422109B2D3001C88AC /* Build configuration list for PBXNativeTarget "AirGreatNewsTests" */;
+			buildPhases = (
+				99B519272109B2D3001C88AC /* Sources */,
+				99B519282109B2D3001C88AC /* Frameworks */,
+				99B519292109B2D3001C88AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B5192D2109B2D3001C88AC /* PBXTargetDependency */,
+			);
+			name = AirGreatNewsTests;
+			productName = AirGreatNewsTests;
+			productReference = 99B5192B2109B2D3001C88AC /* AirGreatNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99B519352109B2D3001C88AC /* AirGreatNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B519452109B2D3001C88AC /* Build configuration list for PBXNativeTarget "AirGreatNewsUITests" */;
+			buildPhases = (
+				99B519322109B2D3001C88AC /* Sources */,
+				99B519332109B2D3001C88AC /* Frameworks */,
+				99B519342109B2D3001C88AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B519382109B2D3001C88AC /* PBXTargetDependency */,
+			);
+			name = AirGreatNewsUITests;
+			productName = AirGreatNewsUITests;
+			productReference = 99B519362109B2D3001C88AC /* AirGreatNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B5190B2109B2D2001C88AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.reading;
+				TargetAttributes = {
+					99B519122109B2D2001C88AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					99B5192A2109B2D3001C88AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B519122109B2D2001C88AC;
+					};
+					99B519352109B2D3001C88AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 99B519122109B2D2001C88AC;
+					};
+				};
+			};
+			buildConfigurationList = 99B5190E2109B2D2001C88AC /* Build configuration list for PBXProject "AirGreatNews" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B5190A2109B2D2001C88AC;
+			productRefGroup = 99B519142109B2D2001C88AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B519122109B2D2001C88AC /* AirGreatNews */,
+				99B5192A2109B2D3001C88AC /* AirGreatNewsTests */,
+				99B519352109B2D3001C88AC /* AirGreatNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B519112109B2D2001C88AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B519232109B2D2001C88AC /* LaunchScreen.storyboard in Resources */,
+				99B519202109B2D2001C88AC /* Assets.xcassets in Resources */,
+				99B5191E2109B2D2001C88AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B519292109B2D3001C88AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B519342109B2D3001C88AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B5190F2109B2D2001C88AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B5191B2109B2D2001C88AC /* ViewController.m in Sources */,
+				99B519262109B2D3001C88AC /* main.m in Sources */,
+				99B519182109B2D2001C88AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B519272109B2D3001C88AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B519302109B2D3001C88AC /* AirGreatNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B519322109B2D3001C88AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B5193B2109B2D3001C88AC /* AirGreatNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99B5192D2109B2D3001C88AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B519122109B2D2001C88AC /* AirGreatNews */;
+			targetProxy = 99B5192C2109B2D3001C88AC /* PBXContainerItemProxy */;
+		};
+		99B519382109B2D3001C88AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B519122109B2D2001C88AC /* AirGreatNews */;
+			targetProxy = 99B519372109B2D3001C88AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99B5191C2109B2D2001C88AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B5191D2109B2D2001C88AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B519212109B2D2001C88AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B519222109B2D2001C88AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B5193D2109B2D3001C88AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99B5193E2109B2D3001C88AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B519402109B2D3001C88AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirGreatNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reading.AirGreatNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99B519412109B2D3001C88AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirGreatNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reading.AirGreatNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99B519432109B2D3001C88AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirGreatNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reading.AirGreatNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirGreatNews.app/AirGreatNews";
+			};
+			name = Debug;
+		};
+		99B519442109B2D3001C88AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirGreatNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reading.AirGreatNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirGreatNews.app/AirGreatNews";
+			};
+			name = Release;
+		};
+		99B519462109B2D3001C88AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirGreatNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reading.AirGreatNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirGreatNews;
+			};
+			name = Debug;
+		};
+		99B519472109B2D3001C88AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirGreatNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reading.AirGreatNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirGreatNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B5190E2109B2D2001C88AC /* Build configuration list for PBXProject "AirGreatNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B5193D2109B2D3001C88AC /* Debug */,
+				99B5193E2109B2D3001C88AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B5193F2109B2D3001C88AC /* Build configuration list for PBXNativeTarget "AirGreatNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B519402109B2D3001C88AC /* Debug */,
+				99B519412109B2D3001C88AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B519422109B2D3001C88AC /* Build configuration list for PBXNativeTarget "AirGreatNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B519432109B2D3001C88AC /* Debug */,
+				99B519442109B2D3001C88AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B519452109B2D3001C88AC /* Build configuration list for PBXNativeTarget "AirGreatNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B519462109B2D3001C88AC /* Debug */,
+				99B519472109B2D3001C88AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B5190B2109B2D2001C88AC /* Project object */;
+}
